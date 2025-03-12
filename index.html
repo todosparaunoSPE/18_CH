@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fcb3fd7c991774bcf5818c44b6bf9c9b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fcb3fd7c991774bcf5818c44b6bf9c9b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fcb3fd7c991774bcf5818c44b6bf9c9b = L.map(
+                "map_fcb3fd7c991774bcf5818c44b6bf9c9b",
+                {
+                    center: [21.5834568745, -104.95671965499999],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_86ed38f72355caa2bb67be4e285d4985 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_86ed38f72355caa2bb67be4e285d4985.addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var marker_10e5b79a997176827911a57a5ba9c181 = L.marker(
+                [21.5095414, -104.8870776],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_8988e1c9326011b8e399a924f093c01f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_10e5b79a997176827911a57a5ba9c181.setIcon(icon_8988e1c9326011b8e399a924f093c01f);
+        
+    
+        var popup_6a5d2258f84cc12b4c33bfb9a58d4af5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bee14f508855f64a8b936360003c9bc = $(`<div id="html_5bee14f508855f64a8b936360003c9bc" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Nayarit</div>`)[0];
+                popup_6a5d2258f84cc12b4c33bfb9a58d4af5.setContent(html_5bee14f508855f64a8b936360003c9bc);
+            
+        
+
+        marker_10e5b79a997176827911a57a5ba9c181.bindPopup(popup_6a5d2258f84cc12b4c33bfb9a58d4af5)
+        ;
+
+        
+    
+    
+            var marker_5f38b2376bed4a27e3c9eef1916a3417 = L.marker(
+                [21.5034347, -104.892566],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_433ffa67f63a0fe0e95126b3d6d2abbb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5f38b2376bed4a27e3c9eef1916a3417.setIcon(icon_433ffa67f63a0fe0e95126b3d6d2abbb);
+        
+    
+        var popup_9eab14d8b2a517674e24c4960709c872 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d27086344d51cbb4c526e5b13b825d44 = $(`<div id="html_d27086344d51cbb4c526e5b13b825d44" style="width: 100.0%; height: 100.0%;">AFORE: PROFUTURO Estado: Nayarit</div>`)[0];
+                popup_9eab14d8b2a517674e24c4960709c872.setContent(html_d27086344d51cbb4c526e5b13b825d44);
+            
+        
+
+        marker_5f38b2376bed4a27e3c9eef1916a3417.bindPopup(popup_9eab14d8b2a517674e24c4960709c872)
+        ;
+
+        
+    
+    
+            var marker_9fd619d4531794563fbc3b80ce001708 = L.marker(
+                [21.5077564, -104.8912821],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_72cd2174c764651a677ff791207e82c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9fd619d4531794563fbc3b80ce001708.setIcon(icon_72cd2174c764651a677ff791207e82c8);
+        
+    
+        var popup_03f914650ff73d52355022f2ec27ad8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51643dfc11318c923ae83f74a58c3a6a = $(`<div id="html_51643dfc11318c923ae83f74a58c3a6a" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Nayarit</div>`)[0];
+                popup_03f914650ff73d52355022f2ec27ad8d.setContent(html_51643dfc11318c923ae83f74a58c3a6a);
+            
+        
+
+        marker_9fd619d4531794563fbc3b80ce001708.bindPopup(popup_03f914650ff73d52355022f2ec27ad8d)
+        ;
+
+        
+    
+    
+            var marker_86d4f4ae9dea08e974c0f6f278786ca1 = L.marker(
+                [21.507202, -104.900549],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_746dcbe8ea2c955100e447d6082adee3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_86d4f4ae9dea08e974c0f6f278786ca1.setIcon(icon_746dcbe8ea2c955100e447d6082adee3);
+        
+    
+        var popup_058f3e057c15797aded99f565599589e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_572db8cc24b11616e3a3c0a5a9e22c80 = $(`<div id="html_572db8cc24b11616e3a3c0a5a9e22c80" style="width: 100.0%; height: 100.0%;">AFORE: PENSIONISSSTE Estado: Nayarit</div>`)[0];
+                popup_058f3e057c15797aded99f565599589e.setContent(html_572db8cc24b11616e3a3c0a5a9e22c80);
+            
+        
+
+        marker_86d4f4ae9dea08e974c0f6f278786ca1.bindPopup(popup_058f3e057c15797aded99f565599589e)
+        ;
+
+        
+    
+    
+            var marker_68362880f2ef407ede1c40a473e6f802 = L.marker(
+                [21.5159476, -104.8909807],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_4da156deb78974774a610280d1bd2dec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_68362880f2ef407ede1c40a473e6f802.setIcon(icon_4da156deb78974774a610280d1bd2dec);
+        
+    
+        var popup_2c291f9f91db7895260ec4848929678d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b2ae0ba5f77856ef270b0102e84dec8 = $(`<div id="html_7b2ae0ba5f77856ef270b0102e84dec8" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nayarit</div>`)[0];
+                popup_2c291f9f91db7895260ec4848929678d.setContent(html_7b2ae0ba5f77856ef270b0102e84dec8);
+            
+        
+
+        marker_68362880f2ef407ede1c40a473e6f802.bindPopup(popup_2c291f9f91db7895260ec4848929678d)
+        ;
+
+        
+    
+    
+            var marker_9be1175207203078ea3c2d0a787b356a = L.marker(
+                [21.8092961, -105.2092423],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_98cd0f401b9b062a8071d6038aa95305 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9be1175207203078ea3c2d0a787b356a.setIcon(icon_98cd0f401b9b062a8071d6038aa95305);
+        
+    
+        var popup_a6b06733ce141e78b3c47d8f73e23bfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56ff3d5d498f56fd00444f340a022142 = $(`<div id="html_56ff3d5d498f56fd00444f340a022142" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nayarit</div>`)[0];
+                popup_a6b06733ce141e78b3c47d8f73e23bfa.setContent(html_56ff3d5d498f56fd00444f340a022142);
+            
+        
+
+        marker_9be1175207203078ea3c2d0a787b356a.bindPopup(popup_a6b06733ce141e78b3c47d8f73e23bfa)
+        ;
+
+        
+    
+    
+            var marker_37dacc8086b8ea9aec03a38f9d1cef0b = L.marker(
+                [21.496865, -104.8829524],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_6f96cfbcf4bae057d364de0eca284f6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_37dacc8086b8ea9aec03a38f9d1cef0b.setIcon(icon_6f96cfbcf4bae057d364de0eca284f6d);
+        
+    
+        var popup_718b4b100c45abd93d2207ea8ecdbfe8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07d8a043e3d31919e413e83a6a764286 = $(`<div id="html_07d8a043e3d31919e413e83a6a764286" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nayarit</div>`)[0];
+                popup_718b4b100c45abd93d2207ea8ecdbfe8.setContent(html_07d8a043e3d31919e413e83a6a764286);
+            
+        
+
+        marker_37dacc8086b8ea9aec03a38f9d1cef0b.bindPopup(popup_718b4b100c45abd93d2207ea8ecdbfe8)
+        ;
+
+        
+    
+    
+            var marker_110fba7f0d99a254664a19caa41a3367 = L.marker(
+                [21.2362463, -104.8991919],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_dd0f867201939e0e20897181321d907a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_110fba7f0d99a254664a19caa41a3367.setIcon(icon_dd0f867201939e0e20897181321d907a);
+        
+    
+        var popup_912cb99e18516992341196cf7d3b145a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0eb524ccddf24d6f0d6aaac2a24d765a = $(`<div id="html_0eb524ccddf24d6f0d6aaac2a24d765a" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nayarit</div>`)[0];
+                popup_912cb99e18516992341196cf7d3b145a.setContent(html_0eb524ccddf24d6f0d6aaac2a24d765a);
+            
+        
+
+        marker_110fba7f0d99a254664a19caa41a3367.bindPopup(popup_912cb99e18516992341196cf7d3b145a)
+        ;
+
+        
+    
+    
+            var marker_2dc5f2d05310f20543669f48e3a2540f = L.marker(
+                [21.7513844, -104.8454619],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_f37a91ae7d429aaa7a2073077230152d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2dc5f2d05310f20543669f48e3a2540f.setIcon(icon_f37a91ae7d429aaa7a2073077230152d);
+        
+    
+        var popup_83fc32058051a9bdf64e150ae82e4ef8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc00470590b7dfe2d6a9e018af2ca8d6 = $(`<div id="html_cc00470590b7dfe2d6a9e018af2ca8d6" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nayarit</div>`)[0];
+                popup_83fc32058051a9bdf64e150ae82e4ef8.setContent(html_cc00470590b7dfe2d6a9e018af2ca8d6);
+            
+        
+
+        marker_2dc5f2d05310f20543669f48e3a2540f.bindPopup(popup_83fc32058051a9bdf64e150ae82e4ef8)
+        ;
+
+        
+    
+    
+            var marker_4ec52dbc8d92797e4d4affc27cd51e8a = L.marker(
+                [21.9451717, -105.3006793],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_c4c547559eb4e3f3a3e4165430b054e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4ec52dbc8d92797e4d4affc27cd51e8a.setIcon(icon_c4c547559eb4e3f3a3e4165430b054e3);
+        
+    
+        var popup_230287a4833a333c84d2c00b50e6c5dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a671a3054440d0a975cccfbdae6fb9c8 = $(`<div id="html_a671a3054440d0a975cccfbdae6fb9c8" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nayarit</div>`)[0];
+                popup_230287a4833a333c84d2c00b50e6c5dd.setContent(html_a671a3054440d0a975cccfbdae6fb9c8);
+            
+        
+
+        marker_4ec52dbc8d92797e4d4affc27cd51e8a.bindPopup(popup_230287a4833a333c84d2c00b50e6c5dd)
+        ;
+
+        
+    
+    
+            var marker_7672ff360d499687b05635dd7cc4648d = L.marker(
+                [21.5057363, -104.8938546],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_e0277603c33bbb8b6ec5a8da23f1b4a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7672ff360d499687b05635dd7cc4648d.setIcon(icon_e0277603c33bbb8b6ec5a8da23f1b4a5);
+        
+    
+        var popup_5a65e3e08c80590fab15ed8cd95e7c8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0aed8a88bb001bfd23659e839bce1527 = $(`<div id="html_0aed8a88bb001bfd23659e839bce1527" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nayarit</div>`)[0];
+                popup_5a65e3e08c80590fab15ed8cd95e7c8d.setContent(html_0aed8a88bb001bfd23659e839bce1527);
+            
+        
+
+        marker_7672ff360d499687b05635dd7cc4648d.bindPopup(popup_5a65e3e08c80590fab15ed8cd95e7c8d)
+        ;
+
+        
+    
+    
+            var marker_457a4b16bc8956c2e175d01da777911b = L.marker(
+                [21.5129981, -104.8921896],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_94ba902ab5473667591c1b97f61e0d2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_457a4b16bc8956c2e175d01da777911b.setIcon(icon_94ba902ab5473667591c1b97f61e0d2d);
+        
+    
+        var popup_743112dd2536485725bebd5d1ef10f13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecf351f3e903bfe42b3d2764eb001e9d = $(`<div id="html_ecf351f3e903bfe42b3d2764eb001e9d" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nayarit</div>`)[0];
+                popup_743112dd2536485725bebd5d1ef10f13.setContent(html_ecf351f3e903bfe42b3d2764eb001e9d);
+            
+        
+
+        marker_457a4b16bc8956c2e175d01da777911b.bindPopup(popup_743112dd2536485725bebd5d1ef10f13)
+        ;
+
+        
+    
+    
+            var marker_0961657d01d97050d6d3d76fbbe1a56a = L.marker(
+                [22.2670468, -105.4185227],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_9d351e5e7945e5612b407c2e9cf08fbb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0961657d01d97050d6d3d76fbbe1a56a.setIcon(icon_9d351e5e7945e5612b407c2e9cf08fbb);
+        
+    
+        var popup_2b6c39dfa1d5b35f83d65e49a2457bea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d319252b6f9ca215f306a85e06c54c6 = $(`<div id="html_7d319252b6f9ca215f306a85e06c54c6" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nayarit</div>`)[0];
+                popup_2b6c39dfa1d5b35f83d65e49a2457bea.setContent(html_7d319252b6f9ca215f306a85e06c54c6);
+            
+        
+
+        marker_0961657d01d97050d6d3d76fbbe1a56a.bindPopup(popup_2b6c39dfa1d5b35f83d65e49a2457bea)
+        ;
+
+        
+    
+    
+            var marker_1ee15e958bc4a3f8a987c09760eff405 = L.marker(
+                [21.5113041, -104.8950863],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_f888a54d7a21b5fdf5130245ca23a4c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1ee15e958bc4a3f8a987c09760eff405.setIcon(icon_f888a54d7a21b5fdf5130245ca23a4c2);
+        
+    
+        var popup_4224fdffe73a8330c2e48591925f684c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a3acd3e8060dbe3eac620f70b708729 = $(`<div id="html_4a3acd3e8060dbe3eac620f70b708729" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nayarit</div>`)[0];
+                popup_4224fdffe73a8330c2e48591925f684c.setContent(html_4a3acd3e8060dbe3eac620f70b708729);
+            
+        
+
+        marker_1ee15e958bc4a3f8a987c09760eff405.bindPopup(popup_4224fdffe73a8330c2e48591925f684c)
+        ;
+
+        
+    
+    
+            var marker_da65476d27df788c43e29153a7744712 = L.marker(
+                [21.452397, -104.898454],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_f52269083719fd83364d8a3b9fa3ea40 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_da65476d27df788c43e29153a7744712.setIcon(icon_f52269083719fd83364d8a3b9fa3ea40);
+        
+    
+        var popup_fa24949710613a615d7a719fc9ee8d1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e6ea64770de39ebf6b5cb2732c76c1e = $(`<div id="html_3e6ea64770de39ebf6b5cb2732c76c1e" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nayarit</div>`)[0];
+                popup_fa24949710613a615d7a719fc9ee8d1a.setContent(html_3e6ea64770de39ebf6b5cb2732c76c1e);
+            
+        
+
+        marker_da65476d27df788c43e29153a7744712.bindPopup(popup_fa24949710613a615d7a719fc9ee8d1a)
+        ;
+
+        
+    
+    
+            var marker_11167a0b7c0f109e25ffccb51e2aae29 = L.marker(
+                [21.5080907, -104.8938204],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_c84e29da07edb62e5ef6812abe5d87dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_11167a0b7c0f109e25ffccb51e2aae29.setIcon(icon_c84e29da07edb62e5ef6812abe5d87dd);
+        
+    
+        var popup_7ac1e893f6ec508e39c86d1e9fb759e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf8f79bc62ce315280214423009310ee = $(`<div id="html_cf8f79bc62ce315280214423009310ee" style="width: 100.0%; height: 100.0%;">AFORE: SURA Estado: Nayarit</div>`)[0];
+                popup_7ac1e893f6ec508e39c86d1e9fb759e7.setContent(html_cf8f79bc62ce315280214423009310ee);
+            
+        
+
+        marker_11167a0b7c0f109e25ffccb51e2aae29.bindPopup(popup_7ac1e893f6ec508e39c86d1e9fb759e7)
+        ;
+
+        
+    
+    
+            var marker_96488ea48efddcc4d7fecd716c0a83ef = L.marker(
+                [21.5162793, -104.8798798],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_0529bb03af0f74b828402e8b8cd431ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_96488ea48efddcc4d7fecd716c0a83ef.setIcon(icon_0529bb03af0f74b828402e8b8cd431ae);
+        
+    
+        var popup_27c37d4c80ad121a387fa48de263185e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38664e7a483642674f2ab3bf851ee424 = $(`<div id="html_38664e7a483642674f2ab3bf851ee424" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Nayarit</div>`)[0];
+                popup_27c37d4c80ad121a387fa48de263185e.setContent(html_38664e7a483642674f2ab3bf851ee424);
+            
+        
+
+        marker_96488ea48efddcc4d7fecd716c0a83ef.bindPopup(popup_27c37d4c80ad121a387fa48de263185e)
+        ;
+
+        
+    
+    
+            var marker_c11bdacf6c5ecda402e5f220f3df8264 = L.marker(
+                [21.4998373, -104.8977777],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_3ebc860234cfe9aba1c067426fb94265 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c11bdacf6c5ecda402e5f220f3df8264.setIcon(icon_3ebc860234cfe9aba1c067426fb94265);
+        
+    
+        var popup_1825507f5b7c729b9066200f2dfc256f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_981b749e3d063fa948b2bb30a9bffd25 = $(`<div id="html_981b749e3d063fa948b2bb30a9bffd25" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Nayarit</div>`)[0];
+                popup_1825507f5b7c729b9066200f2dfc256f.setContent(html_981b749e3d063fa948b2bb30a9bffd25);
+            
+        
+
+        marker_c11bdacf6c5ecda402e5f220f3df8264.bindPopup(popup_1825507f5b7c729b9066200f2dfc256f)
+        ;
+
+        
+    
+    
+            var marker_23604c8cd0946a09e4614f8727ed3ebc = L.marker(
+                [21.5120148, -104.8937634],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_2e9e6d2b42c641e584ec3c4d491d2d8c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_23604c8cd0946a09e4614f8727ed3ebc.setIcon(icon_2e9e6d2b42c641e584ec3c4d491d2d8c);
+        
+    
+        var popup_e734d581b42b50b4e32b7b8c7753721c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f1d6ecb78c4c468b6efe7c5d7ffdada = $(`<div id="html_3f1d6ecb78c4c468b6efe7c5d7ffdada" style="width: 100.0%; height: 100.0%;">AFORE: AZTECA Estado: Nayarit</div>`)[0];
+                popup_e734d581b42b50b4e32b7b8c7753721c.setContent(html_3f1d6ecb78c4c468b6efe7c5d7ffdada);
+            
+        
+
+        marker_23604c8cd0946a09e4614f8727ed3ebc.bindPopup(popup_e734d581b42b50b4e32b7b8c7753721c)
+        ;
+
+        
+    
+    
+            var marker_13813c14461a7750c865d5ab1a1af142 = L.marker(
+                [21.60058749, -104.9710614],
+                {
+}
+            ).addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+    
+            var icon_e179023cd604a634f880e7df2097a8e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_13813c14461a7750c865d5ab1a1af142.setIcon(icon_e179023cd604a634f880e7df2097a8e3);
+        
+    
+        var popup_acc4371f34f030da6b8a5f8445d7b369 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f343a91f4ce6b4519f176f1acbf9c4f = $(`<div id="html_4f343a91f4ce6b4519f176f1acbf9c4f" style="width: 100.0%; height: 100.0%;">AFORE: Nuevo CAP Estado: Nayarit</div>`)[0];
+                popup_acc4371f34f030da6b8a5f8445d7b369.setContent(html_4f343a91f4ce6b4519f176f1acbf9c4f);
+            
+        
+
+        marker_13813c14461a7750c865d5ab1a1af142.bindPopup(popup_acc4371f34f030da6b8a5f8445d7b369)
+        ;
+
+        
+    
+    
+            tile_layer_86ed38f72355caa2bb67be4e285d4985.addTo(map_fcb3fd7c991774bcf5818c44b6bf9c9b);
+        
+</script>
+</html>
